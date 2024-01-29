@@ -19,6 +19,8 @@ import collections.abc as _collections_abc
 from ._tensorstore import *
 from ._tensorstore import _Decodable
 
+GRPC_KVSTORE_SUPPORTED = True
+
 newaxis = None
 """Alias for `None` used in :ref:`indexing expressions<python-indexing>` to specify a new singleton dimension.
 
